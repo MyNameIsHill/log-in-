@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>account creation</title>
+    <link rel="stylesheet" href="styles.css">
+    echo "# log-in-page" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/MyNameIsHill/log-in-page.git
+git push -u origin main
+</head>
+<body>
+    <img src="mangol2.png" alt="mango logo" class="img">
+    <fieldset class="fld">
+        <h1>create an account</h1>
+        <form action="">
+            <div>
+            <input type="text" placeholder=" enter username" required class="login">
+        </div>
+        <div>
+            <input type="email" placeholder="enter E-mail" required class="login">
+        </div>
+        <div>
+            <input type="password" placeholder="enter password" required minlength="6" maxlength="20" class="login">
+            
+            </div>
+            <div>
+                <button class="btn"><b>sign up</b></button>
+            </form>
+            <br>
+            <br>
+            <div>
+            <p>already have an account? <a href="login.html">login</a></p>
+        </div>
+        </fieldset>
+
+        
+    
+</body>
+</html>
